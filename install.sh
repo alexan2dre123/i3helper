@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "Updating Mirrors..."; sleep 2
 sudo cp mirrorlist/mirrorlist /etc/pacman.d/
 sudo cp pacman/pacman.conf /etc/
